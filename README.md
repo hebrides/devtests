@@ -26,7 +26,7 @@ After you have a simple working solution, add as many of the following features 
 - Run a server side binary / lambda funtion, or use a Cloud Service API to further optimize the image with minimal reduction in quality, maximal reduction in size
 - Route to your app from a subdomain of a [FQDN](https://en.wikipedia.org/wiki/Fully_qualified_domain_name) that you control with SSL, e.g.: `https://img2url.jodiethecodeninja.io/`
 - Accept more interesting MIME types like `image/heic`, `image/svg`, and `application/pdf`
-- Accept a proprietary visual format like `.fig` and `.sketch`
+- Accept proprietary visual formats like `.fig` and `.sketch`
 
 #### Appearance
 
