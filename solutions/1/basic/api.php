@@ -46,7 +46,7 @@ if(isset($_POST["submit"]) && is_uploaded_file($_FILES["fileUpload"]["tmp_name"]
 // Notes: 
 // - We'll write to a unique folder / file for now. 
 // - THIS WORKS BUT IS SUBOPTIMAL!! 
-// - We'll OPTIMIZE later via Database, Blockstorage, Pre-signed URLs, and Compression:
+// - Should OPTIMIZE later via Database, Blockstorage, Pre-signed URLs, Compression, etc.:
 //   https://softwareontheroad.com/aws-s3-secure-direct-upload/
 
 $requestURI=getRequestURI(); 
