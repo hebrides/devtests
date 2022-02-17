@@ -66,13 +66,13 @@ if ($requestURI &&
 function writeImageViewPage($requestURI, $localPath, $imageName) {
   $html = "
   <!DOCTYPE html>
-  <meta property=\"og:title\" content=\"Generated from Tiny URI for Images\" />
-  <meta property=\"og:type\" content=\"website\" />
-  <meta property=\"og:url\" content=\"$requestURI/$localPath/\" />
-  <meta property=\"og:image\" content=\"$requestURI/$localPath/$imageName\" />
   <html>
     <head>
       <title>Generated Tiny URI for Image</title>
+      <meta property=\"og:title\" content=\"Generated from Tiny URI for Images\" />
+      <meta property=\"og:type\" content=\"website\" />
+      <meta property=\"og:url\" content=\"$requestURI/$localPath/\" />
+      <meta property=\"og:image\" content=\"$requestURI/$localPath/$imageName\" />    
     </head>
     <body>
       <img src=\"$requestURI/$localPath/$imageName\" style=\"width: 50%;\" />
