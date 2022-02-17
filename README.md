@@ -19,7 +19,7 @@ After you have a simple working solution, add as many of the following features 
 - Limit upload size to 10MB and validate file type on the frontend
 - Validate contraints for size and type on the backend
 - Write meta tags for SEO and the Open Graph Protocol (<http://ogp.me/>) 
-- Host the image path on a CDN like S3 or store its data in local database like MySQL or Mongo as a blog, or in a remote database / service like Firebase or Parse
+- Host the image path on a CDN like S3 or store its data in local database like MySQL or Mongo as a blob, or in a remote database / service like Firebase or Parse
 - Offer to compress the image client side prior to upload
 - Use a Presigned URL to upload directly from your client to cloud storage
 - Host your app on a free service like Netlify, Serverless.com, Heroku, or AWS
