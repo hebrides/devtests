@@ -21,8 +21,8 @@ After you have a simple working solution, add as many of the following features 
 - Write meta tags for SEO and the Open Graph Protocol (<http://ogp.me/>) 
 - Host the image path on a CDN like S3 or store its data in local database like MySQL or Mongo as a blog, or in a remote database / service like Firebase or Parse
 - Offer to compress the image client side prior to upload
-- Use a presigned URL to imrpove upload speeds
-- Host your app on a free service like Netlify, Serverless.com, Heroku, or AWS.
+- Use a Presigned URL to upload directly from your client to cloud storage
+- Host your app on a free service like Netlify, Serverless.com, Heroku, or AWS
 - Run a server side binary / lambda funtion, or use a Cloud Service API to further optimize the image with minimal reduction in quality, maximal reduction in size
 - Route to your app from a subdomain of a [FQDN](https://en.wikipedia.org/wiki/Fully_qualified_domain_name) that you control with SSL, e.g.: `https://img2url.jodiethecodeninja.io/`
 - Accept more interesting MIME types like `image/heic`, `image/svg`, and `application/pdf`
