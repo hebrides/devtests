@@ -31,7 +31,7 @@ if(isset($_POST["submit"]) && is_uploaded_file($_FILES["fileUpload"]["tmp_name"]
     }
 
   // Check MIME type
-    $types=["jpeg","jpg","png","gif","bmp","webp"];
+    $types=["jpeg","png","gif","bmp","webp"];
     if (!in_array(substr($check["mime"],6),$types)) {
       exitWithError("File type is not supported.");
     } 
