@@ -27,7 +27,7 @@ if(isset($_POST["submit"]) && is_uploaded_file($_FILES["fileUpload"]["tmp_name"]
   // could be executed client side before releasing this app to the wild
     $check = getimagesize($_FILES["fileUpload"]["tmp_name"]);
     if(!$check) {
-      exitWithError("File type is not supported.");
+      exitWithError("The image failed to process.");
     }
 
   // Check MIME type
