@@ -6,5 +6,5 @@ This quick and dirty solution generates a Tiny URI then saves the image files di
 - Can be easily adpated for Blockstorage, Database, Image Compression and other improvements
 - Does not use frameworks or libraries
 
-#### Test
+### Test
 Run `php -S localhost:8000` in a folder containing the `index.php` and `api.php` files.
