@@ -55,9 +55,9 @@ if ($requestURI &&
     $tinyURI && 
     mkdir($tinyURI) && 
     move_uploaded_file($_FILES["fileUpload"]["tmp_name"], "$tinyURI/$tinyURI") &&
-    writeImageViewPage($requestURI, $tinyURI, $tinyURI)) {
-  // make image file read only
-  chmod("$tinyURI/$tinyURI", 0400);
+    writeImageViewPage($requestURI, $tinyURI, $tinyURI) &&
+    // make image file read only
+    chmod("$tinyURI/$tinyURI", 0400)) {
   echo "Success! Your image is available at <a href=\"$requestURI/$tinyURI/\">$requestURI/$tinyURI/</a>";
 } else {
   exitWithError("Something went wrong, please try again.");
